@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Example</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+
+  
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decorative Navigation Bar</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+      /* Custom CSS for decoration and animations */
+      .navbar-nav .nav-link {
+          color: #333; /* Original text color */
+          transition: color 0.3s ease; /* Smooth transition for text color change */
+      }
+      .navbar-nav .nav-link:hover {
+          color: #5bc0de; /* Light blue color on hover */
+      }
+      /* Adding animation to navbar items */
+      .navbar-nav .nav-item {
+          position: relative;
+      }
+      .navbar-nav .nav-item::before {
+          content: "";
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          width: 0;
+          height: 0;
+          border-left: 5px solid transparent;
+          border-right: 5px solid transparent;
+          border-bottom: 5px solid #5bc0de; /* Light blue color */
+          transition: width 0.3s ease, left 0.3s ease;
+          transform: translateX(-50%);
+          opacity: 0;
+      }
+      .navbar-nav .nav-item:hover::before {
+          width: 100%;
+          left: 0;
+          opacity: 1;
+      }
+  </style>
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img src="https://seeklogo.com/images/H/home-care-logo-847AC1C5A6-seeklogo.com.png" width="50px" alt="CARE+ Logo" class="mr-2">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav1">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link 1</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link 2</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link 3</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link 4</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link 5</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link 6</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link 7</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link 8</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      </div>
+  </nav>
+
+  <!-- Section 1 -->
+<section style="position: relative; margin-bottom: 20px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 about" style="background-image: url('https://hbr.org/resources/images/article_assets/2019/10/Oct19_22_1032609198.jpg'); background-size: cover; border-radius: 10px; overflow: hidden;">
+          <div class="image-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+          <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; text-align: center; color: #fff; padding: 20px;">
+            <h2 style="font-size: 30px;">Welcome to Our Website</h2>
+            <p style="font-size: 20px;">Discover our mission and commitment</p>
+            <a href="#about-us" class="btn btn-primary">About Us</a>
+          </div>
+        </div>
+        <div class="col-md-6" style="background-color: #f3e5ab; padding: 50px; margin-bottom: 20px;">
+          <h1>About Us</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum et accusamus porro harum corrupti asperiores, illum non, ducimus error sapiente sunt vel laboriosam, fugit velit ipsum quis nobis similique reprehenderit <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab totam, harum minima aut necessitatibus eius commodi obcaecati voluptas minus eligendi excepturi a perferendis ducimus doloremque unde, culpa illo atque officiis!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  
+
+  
+  
+  </body>
+  </html>
+  
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+<!--footer-->
+<br>
+<br>
+<footer class="bg-dark p-3 pt-3 pb-3 text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h4>NAVIGATION</h4>
+        <a href="\healthcare_eproject\privacypolicy.php" class="text-white">Privacy Policy</a>
+        <br>
+        <a href="\healthcare_eproject\contactus.php" class="text-white">Contact Us</a>
+        <br>
+        <a href="\healthcare_eproject\servc.php" class="text-white">Service</a>
+        <br>
+        <a href="\healthcare_eproject\terms.php" class="text-white">Terms And Conditions</a>
+      </div>
+
+      <div class="col-md-3">
+        <h4>Address</h4>
+        Medical Healthcare
+        <br>
+        123 Medical Street
+        <br>
+        City, Country, ZIP
+      </div>
+
+      <div class="col-md-3">
+        <h4>FOR THE CLIMBERS</h4>
+        Medical Healthcare is committed to providing quality healthcare services to our community. Our mission is to improve the health and well-being of every patient we serve.
+      </div>
+
+      <div class="col-md-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.0122162982884!2d67.06651851532301!3d24.93165374853988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f684a577aa1%3A0x8eef9ba9639151a5!2sAPTECH%20Computer%20Education%20F.B%20Area!5e0!3m2!1sen!2s!4v1617197219515!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook fa-2x text-white"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-2x text-white"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-2x text-white"></i></a>
+        <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube fa-2x text-white"></i></a>
+        <br>
+        <br>
+      </div>
+      <div class="col-md-3">
+        Medical Healthcare – Providing Quality Care
+      </div>
+    </div>
+  </div>
+  <br>
+  <p class="text-center">© 2020 Medical Healthcare. All rights reserved. Terms of Use</p>
+</footer>
