@@ -118,22 +118,22 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/healthcare_eproject/home.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/home.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/healthcare_eproject/ourhospital.php">Our Hospitals</a>
+        <a class="nav-link" href="/ourhospital.php">Our Hospitals</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/healthcare_eproject\patients-families.php">Patients And Families</a>
+        <a class="nav-link" href="/patients-families.php">Patients And Families</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="\healthcare_eproject\research.php">Research</a>
+        <a class="nav-link" href="/research.php">Research</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="\healthcare_eproject\disorder.php">Disorders & Diseases</a>
+        <a class="nav-link" href="/disorder.php">Disorders & Diseases</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="\healthcare_eproject\inventions.php">Inventions</a>
+        <a class="nav-link" href="/inventions.php">Inventions</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -149,21 +149,21 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav m-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="\healthcare_eproject\finddoctor.php">Find Doctors <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/finddoctor.php">Find Doctors <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="\healthcare_eproject\patientportal.php">Patient Portal</a>
+        <a class="nav-link" href="/patientportal.php">Patient Portal</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="\healthcare_eproject\medicalnews.php">Medical News</a>
+        <a class="nav-link" href="/medicalnews.php">Medical News</a>
       </li>
 
      
       <li class="nav-item">
-        <a class="nav-link" href="\healthcare_eproject\login.php">Login</a>
+        <a class="nav-link" href="/login.php">Login</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="\healthcare_eproject\signup.php">Sign Up</a>
+        <a class="nav-link" href="/signup.php">Sign Up</a>
       </li>
       
     </ul>
@@ -277,13 +277,13 @@
 <div class="row">
 <div class="col-md-3">
 <h4>NAVIGATION</h4>
-<a href="\healthcare_eproject\privacypolicy.php" class="text-white">Privacy Policy</a>
+<a href="/privacypolicy.php" class="text-white">Privacy Policy</a>
 <br>
-<a href="\healthcare_eproject\contactus.php" class="text-white">Contact Us</a>
+<a href="/contactus.php" class="text-white">Contact Us</a>
 <br>
-<a href="\healthcare_eproject\servc.php" class="text-white">Service</a>
+<a href="/servc.php" class="text-white">Service</a>
 <br>
-<a href="\healthcare_eproject\terms.php" class="text-white">Terms And Conditions</a>
+<a href="/terms.php" class="text-white">Terms And Conditions</a>
 </div>
 
 <div class="col-md-3">
