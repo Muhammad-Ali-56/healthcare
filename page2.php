@@ -88,22 +88,22 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/healthcare_eproject/home.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/home.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/healthcare_eproject/ourhospital.php">Our Hospitals</a>
+        <a class="nav-link" href="/ourhospital.php">Our Hospitals</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/healthcare_eproject\patients-families.php">Patients And Families</a>
+        <a class="nav-link" href="/patients-families.php">Patients And Families</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="\healthcare_eproject\research.php">Research</a>
+        <a class="nav-link" href="/research.php">Research</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="\healthcare_eproject\disorder.php">Disorders & Diseases</a>
+        <a class="nav-link" href="/disorder.php">Disorders & Diseases</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="\healthcare_eproject\Preventions.php">Preventions</a>
+        <a class="nav-link" href="/Preventions.php">Preventions</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -119,16 +119,16 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav m-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="\healthcare_eproject\finddoctor.php">Find Doctors <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/finddoctor.php">Find Doctors <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="\healthcare_eproject\patientportal.php">Patient Portal</a>
+        <a class="nav-link" href="/patientportal.php">Patient Portal</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="\healthcare_eproject\medicalnews.php">Medical News</a>
+        <a class="nav-link" href="/medicalnews.php">Medical News</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="\healthcare_eproject\inventions.php">Latest Inventions</a>
+        <a class="nav-link" href="/inventions.php">Latest Inventions</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">DoctorPortal</a>
@@ -280,7 +280,7 @@
     <div class="text-center">
         <div class="text-center">
             <a href="page1.html" class="btn btn-primary mr-2">1</a>
-            <a href="\healthcare_eproject\page2.php" class="btn btn-primary mr-2">2</a>
+            <a href="/page2.php" class="btn btn-primary mr-2">2</a>
             <a href="page3.html" class="btn btn-primary mr-2">3</a>
             <button id="nextBtn" class="btn btn-primary">Next</button>
           </div>
