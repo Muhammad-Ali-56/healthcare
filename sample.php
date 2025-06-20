@@ -147,13 +147,13 @@
   var location = document.getElementById('location').value.toLowerCase();
   // Define page mapping for each specialty
   var pageMapping = {
-    "Cardiologist": "/healthcare_eproject/home.php",
-    "Dermatologist": "/healthcare_eproject/login.php",
-    "Pediatrician": "/healthcare_eproject/signup.php",
+    "Cardiologist": "/home.php",
+    "Dermatologist": "/login.php",
+    "Pediatrician": "/signup.php",
     // Add more specialties and their corresponding pages as needed
   };
   // Redirect to the appropriate page with the selected specialty and location
-  var redirectUrl = pageMapping[specialty] || '/healthcare_eproject/home.php'; // Default to home.php if specialty not found
+  var redirectUrl = pageMapping[specialty] || '/home.php'; // Default to home.php if specialty not found
   window.location.href = redirectUrl + '?location=' + location + '&specialty=' + encodeURIComponent(specialty);
 }
 
