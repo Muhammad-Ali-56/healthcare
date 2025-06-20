@@ -148,7 +148,7 @@
         <a class="nav-link" href="/disorder.php">Disorders & Diseases</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/nventions.php">Inventions</a>
+        <a class="nav-link" href="/inventions.php">Inventions</a>
       </li>
     </ul>
     <form id="searchForm" class="form-inline my-2 my-lg-0">
